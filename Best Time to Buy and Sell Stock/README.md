@@ -1,3 +1,4 @@
+# Problem Description
 Writing programming interview questions hasn't made me rich yet ... so I might give up and start trading Apple stocks all day instead.
 
 First, I wanna know how much money I could have made yesterday if I'd been trading Apple stocks all day.
@@ -12,10 +13,17 @@ Write an efficient function that takes stock_prices and returns the best profit 
 
 For example:
 
-  stock_prices = [10, 7, 5, 8, 11, 9]
+  '''stock_prices = [10, 7, 5, 8, 11, 9]'''
 
 get_max_profit(stock_prices)
 # Returns 6 (buying for $5 and selling for $11)
 
 Python 3.6
 No "shorting"—you need to buy before you can sell. Also, you can't buy and sell in the same time step—at least 1 minute has to pass.
+
+# Solution description
+## Description:
+  This function iterates through the array comparing the current value with the lowest found so far and see if it makes a profit higher than the best one found so far. Infinity and zero are used as the starting lowest price and max profit, respectively\n
+  Note that the highest profit returned can be negative if the price goes only down\n
+## Complexity: O(n)
+  We iterate through the array only once
