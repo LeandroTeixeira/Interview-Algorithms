@@ -13,7 +13,7 @@ Write an efficient function that takes stock_prices and returns the best profit 
 
 For example:
 
-  '''stock_prices = [10, 7, 5, 8, 11, 9]'''
+  ``` stock_prices = [10, 7, 5, 8, 11, 9] ```
 
 get_max_profit(stock_prices)
 Returns 6 (buying for $5 and selling for $11)
@@ -23,7 +23,7 @@ No "shorting"—you need to buy before you can sell. Also, you can't buy and sel
 
 # Solution description
 ## Description:
-  This function iterates through the array comparing the current value with the lowest found so far and see if it makes a profit higher than the best one found so far. Infinity and zero are used as the starting lowest price and max profit, respectively\n
-  Note that the highest profit returned can be negative if the price goes only down\n
+  This function iterates through the array comparing the current value with the lowest found so far and see if it makes a profit higher than the best one found so far. Infinity and zero are used as the starting lowest price and max profit, respectively
+  Note that the highest profit returned can be negative if the price goes only down
 ## Complexity: O(n)
   We iterate through the array only once
