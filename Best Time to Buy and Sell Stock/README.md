@@ -16,7 +16,7 @@ For example:
   '''stock_prices = [10, 7, 5, 8, 11, 9]'''
 
 get_max_profit(stock_prices)
-# Returns 6 (buying for $5 and selling for $11)
+Returns 6 (buying for $5 and selling for $11)
 
 Python 3.6
 No "shorting"—you need to buy before you can sell. Also, you can't buy and sell in the same time step—at least 1 minute has to pass.
