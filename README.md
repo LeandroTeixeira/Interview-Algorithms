@@ -15,3 +15,5 @@ So far, these are the problems covered. In parenthesis is the time complexity fo
 #### _[Maximum Subarray](https://github.com/LeandroTeixeira/Interview-Algorithms/tree/main/Maximum%20Subarray)_ ( - ).
 
 #### _[Product of Array Except Self](https://github.com/LeandroTeixeira/Interview-Algorithms/tree/main/Product%20of%20Array%20Except%20Self)_ ( O(n) ).
+
+#### _[Biggest Palyndrome](https://github.com/LeandroTeixeira/Interview-Algorithms/tree/main/Product%20of%20Array%20Except%20Self)_ ( O(n^2) ).
