@@ -1,24 +1,26 @@
-# Problem Description
-You have a list of integers, and for each index you want to find the product of every integer except the integer at that index.
+# Problem Description  _[(source)](https://leetcode.com/problems/two-sum/)_
+Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to target.
 
-Write a function get_products_of_all_ints_except_at_index() that takes a list of integers and returns a list of the products.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-For example, given:
+**Example 1:**
 
-  ```[1, 7, 3, 4]```
+```
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Output: Because nums[0] + nums[1] == 9, we return [0, 1].
+```
 
-Python 3.6
-your function would return:
-
- ``` [84, 12, 28, 21]```
-
-Python 3.6
-by calculating:
-
-  ```[7 * 3 * 4,  1 * 3 * 4,  1 * 7 * 4,  1 * 7 * 3]```
-
-Python 3.6
-Here's the catch: You can't use division in your solution!
+**Example 2:**
+```
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+```
+**Example 3:**
+```
+Input: nums = [3,3], target = 6
+Output: [0,1]
+```
 
 # Problem solution
 ## Description:
