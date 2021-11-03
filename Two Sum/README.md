@@ -24,6 +24,7 @@ Output: [0,1]
 
 # Problem solution
 ## Description:
-The solution can be broken down into smaller steps. For each number, we are multiplying the product of the numbers before it by the multiplication of those after it. By calculating these values, we can pass through the array only twice to arrive at the solution.
+The idea is pretty simple: We iterate once on the array. For each number, we calculate which number we need to add up to the target and checks if the number exists in a hash map. If it doesn't, we save the current number in that hash map alongside it's position. Using this, we only need to iterate the array once and since hash maps go for O(1) on average, the time complexity is kept at O (n).
+
 ## Complexity: 
-O(n). We only iterate through the array twice
+O(n). We only iterate through the array once and hash maps have O (1) on average.
