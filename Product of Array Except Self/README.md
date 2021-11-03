@@ -20,8 +20,8 @@ by calculating:
 Python 3.6
 Here's the catch: You can't use division in your solution!
 
-# Problem solution
-## Description:
+## Problem solution
+### Description:
 The solution can be broken down into smaller steps. For each number, we are multiplying the product of the numbers before it by the multiplication of those after it. By calculating these values, we can pass through the array only twice to arrive at the solution.
-## Complexity: 
+### Complexity: 
 O(n). We only iterate through the array twice
