@@ -1,27 +1,30 @@
-# Problem Description
-You have a list of integers, and for each index you want to find the product of every integer except the integer at that index.
+# Problem Description  _[(source)](https://leetcode.com/problems/two-sum/)_
+Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to target.
 
-Write a function get_products_of_all_ints_except_at_index() that takes a list of integers and returns a list of the products.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-For example, given:
+**Example 1:**
 
-  ```[1, 7, 3, 4]```
+```
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Output: Because nums[0] + nums[1] == 9, we return [0, 1].
+```
 
-Python 3.6
-your function would return:
+**Example 2:**
+```
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+```
+**Example 3:**
+```
+Input: nums = [3,3], target = 6
+Output: [0,1]
+```
 
- ``` [84, 12, 28, 21]```
+## Problem solution
+### Description:
+The idea is pretty simple: We iterate once on the array. For each number, we calculate which number we need to add up to the target and checks if the number exists in a hash map. If it doesn't, we save the current number in that hash map alongside it's position. Using this, we only need to iterate the array once and since hash maps go for O(1) on average, the time complexity is kept at O (n).
 
-Python 3.6
-by calculating:
-
-  ```[7 * 3 * 4,  1 * 3 * 4,  1 * 7 * 4,  1 * 7 * 3]```
-
-Python 3.6
-Here's the catch: You can't use division in your solution!
-
-# Problem solution
-## Description:
-The solution can be broken down into smaller steps. For each number, we are multiplying the product of the numbers before it by the multiplication of those after it. By calculating these values, we can pass through the array only twice to arrive at the solution.
-## Complexity: 
-O(n). We only iterate through the array twice
+### Complexity: 
+O(n). We only iterate through the array once and hash maps have O (1) on average.
