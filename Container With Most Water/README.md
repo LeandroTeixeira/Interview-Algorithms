@@ -36,6 +36,6 @@ The implementation is through two nested for loops. The first one starts and the
 
 Taking into consideration what the question is really asking for, there isn't a single possible solution that won't be tested here so it becomes easy to understand how it will always find the correct solution even if takes more computational power.
 
-### Complexity: 
-O (n^2). On the first iteration of an array with n elements, we will compare the first element to the n-1 following elements. On the second iteration, we will compare the second element to the n-2 following elements. We continue in this way until we compare the penultimate element to the last one. In the end, we will make (n-1) + (n-2) + (n-3) + .... + 2 + 1 comparisons, which in Big O notation simplifies to O (n ^ 2).
+### Complexity: O (n^2). 
+On the first iteration of an array with n elements, we will compare the first element to the n-1 following elements. On the second iteration, we will compare the second element to the n-2 following elements. We continue in this way until we compare the penultimate element to the last one. In the end, we will make (n-1) + (n-2) + (n-3) + .... + 2 + 1 comparisons, which in Big O notation simplifies to O (n ^ 2).
 
