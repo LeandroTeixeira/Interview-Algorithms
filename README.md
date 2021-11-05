@@ -23,4 +23,4 @@ So far, these are the problems covered. In parenthesis is the time complexity fo
 #### _[Container With Most Water](https://github.com/LeandroTeixeira/Interview-Algorithms/tree/main/Container%20With%20Most%20Water)_ ( O(n) ).
 
 
-1 - Leet Code prints should be taken only as examples. Execution of the same code multiple times might yield different results that can vary a little or too much, depending on how the solution compares to the most common solution submitted, so the absolute values are a better indicator of the performance than the results of the comparisons.
+<sub>1 - Leet Code prints should be taken only as examples. Execution of the same code multiple times might yield different results that can vary wildly, depending on how the solution compares to the most common solution submitted, so the absolute values are a better indicator of the performance than the results of the comparisons.</sub>
