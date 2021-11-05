@@ -28,3 +28,8 @@ The idea is pretty simple: We iterate once on the array. For each number, we cal
 
 ### Complexity: 
 O(n). We only iterate through the array once and hash maps have O (1) on average.
+
+### LeetCode stats:
+![two sum stats](two-sum.png)
+
+_print taken on 05/11/2021_
