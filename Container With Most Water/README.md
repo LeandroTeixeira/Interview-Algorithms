@@ -41,7 +41,8 @@ On the first iteration of an array with n elements, we will compare the first el
 
 ### LeetCode stats:
 
-
+N/A.
+This technique fails to get in enough time an answer for an array with 5000 elements.
 
 ## Problem Solution 3 - Two Pointers
 
