@@ -4,7 +4,7 @@ A repository with my solutions to different algorithm problems found around the 
 
 # Repository Structure
 
-Each folder deals with a specific problem. It will contain the source of the problem (when aplicable), a description of the problem and one or more solutions with their respective analysis of space and time complexity.
+Each folder deals with a specific problem. It will contain the source of the problem (when aplicable), a description of the problem and one or more solutions with their respective general descriptions, implementations, analysis of space and time complexity and an example of how the code performed when submitted at LeetCode <sup>1</sup>.
 
 ## Problem list
 
@@ -21,3 +21,6 @@ So far, these are the problems covered. In parenthesis is the time complexity fo
 #### _[Two Sum](https://github.com/LeandroTeixeira/Interview-Algorithms/tree/two-sum/Two%20Sum)_ (O (n) ).
 
 #### _[Container With Most Water](https://github.com/LeandroTeixeira/Interview-Algorithms/tree/main/Container%20With%20Most%20Water)_ ( O(n) ).
+
+
+1 - Leet Code prints should be taken only as examples. Execution of the same code multiple times might yield different results that can vary a little or too much, depending on how the solution compares to the most common solution submitted, so the absolute values are a better indicator of the performance than the results of the comparisons.
