@@ -39,3 +39,15 @@ Taking into consideration what the question is really asking for, there isn't a 
 ### Complexity: O (n^2). 
 On the first iteration of an array with n elements, we will compare the first element to the n-1 following elements. On the second iteration, we will compare the second element to the n-2 following elements. We continue in this way until we compare the penultimate element to the last one. In the end, we will make (n-1) + (n-2) + (n-3) + .... + 2 + 1 comparisons, which in Big O notation simplifies to O (n ^ 2).
 
+### LeetCode stats:
+
+
+
+## Problem Solution 3 - Two Pointers
+
+### LeetCode stats:
+![two pointer stats](two-pointer.png)
+
+_print taken on 05/11/2021_
+
+
