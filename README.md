@@ -2,7 +2,7 @@
 
 A repository with my solutions to different algorithm problems found around the internet. The idea is to sharp my skills for potential interviews in the future
 
-# Repository Structure
+## Repository Structure
 
 Each folder deals with a specific problem. It will contain the source of the problem (when aplicable), a description of the problem and one or more solutions with their respective general descriptions, implementations, analysis of space and time complexity and an example of how the code performed when submitted at LeetCode <sup>1</sup>.
 
