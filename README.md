@@ -16,7 +16,7 @@ So far, these are the problems covered. In parenthesis is the time complexity fo
 
 #### _[Product of Array Except Self](https://github.com/LeandroTeixeira/Interview-Algorithms/tree/main/Product%20of%20Array%20Except%20Self)_ ( O(n) ).
 
-#### _[Biggest Palyndrome](https://github.com/LeandroTeixeira/Interview-Algorithms/tree/main/Product%20of%20Array%20Except%20Self)_ ( O(n^2) ).
+#### _[Biggest Palyndrome](https://github.com/LeandroTeixeira/Interview-Algorithms/tree/main/Biggest%20Palyndrome)_ ( O(n^2) ).
 
 #### _[Two Sum](https://github.com/LeandroTeixeira/Interview-Algorithms/tree/two-sum/Two%20Sum)_ (O (n) ).
 
